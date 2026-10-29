@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react'
 import axios from 'axios'
 
-const serverUrl = import.meta.env.VITE_SERVER_URL || ""
+const serverUrl = import.meta.env.VITE_SERVER_URL || 'https://ai-interview-mern-stack-2.onrender.com'
 
 const AdminContext = createContext(null)
 

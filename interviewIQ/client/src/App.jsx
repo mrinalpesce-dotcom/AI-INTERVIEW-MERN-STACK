@@ -23,7 +23,7 @@ import AdminActivities from './admin/AdminActivities.jsx'
 import AdminAnalytics from './admin/AdminAnalytics.jsx'
 import AdminAuditLogs from './admin/AdminAuditLogs.jsx'
 
-export const serverUrl = import.meta.env.VITE_SERVER_URL || ""
+export const serverUrl = import.meta.env.VITE_SERVER_URL || 'https://ai-interview-mern-stack-2.onrender.com'
 
 // Automatically attach credentials and Authorization header to every request
 axios.interceptors.request.use((config) => {

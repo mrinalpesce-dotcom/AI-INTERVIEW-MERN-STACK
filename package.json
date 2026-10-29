@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npm --prefix interviewIQ/client run build"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^2.13.0",
     "@tailwindcss/vite": "^4.3.3",
